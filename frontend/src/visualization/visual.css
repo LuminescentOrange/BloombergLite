@@ -1,0 +1,27 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    background-color: #EAEAEA;
+} */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: #1E90FF;
+} */
+.visual1{
+
+    transform: translate(0%, 80%);
+}
+
+.visual2{
+
+    transform: translate(0%, 20%);
+}
+
+.table{
+    transform: translate(0%, 5%);
+}
+
+.table1{
+    transform: translate(0%, 50%);
+}

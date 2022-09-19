@@ -1,0 +1,26 @@
+Vagrant.configure("2") do |config|
+  
+    config.vm.provider "virtualbox"
+  
+    config.vm.box = "IE498Group2"
+    config.vm.box_url = ENV["SS_BOX"]
+    config.vm.box_download_checksum = "9823adj343nks542a3n2mmm45jdsffk33j33sanmd3343993dsfsfb3fkslqo334"
+    config.vm.box_download_checksum_type = "sha256"
+    config.ssh.insert_key = false
+  
+    
+    config.vm.define "stratdev" do |sd|
+      sd.vm.hostname = "IE498Group2VM"
+      
+      sd.vm.provider :virtualbox do |vb|
+        vb.customize ["modifyvm", :id, "--memory", "1024"]
+        vb.customize ["modifyvm", :id, "--cpus", "1"]
+      end
+
+      sd.vm.provision "file", source: "requirements.txt", destination: "/home/vagrant/Desktop/requirements.txt"
+      sd.vm.provision "shell", inline: "ls -lhs"
+      sd.vm.provision "shell", inline: "/usr/local/bin/pip3.7 install -r /home/vagrant/Desktop/requirements.txt"
+    end
+    
+  end
+  

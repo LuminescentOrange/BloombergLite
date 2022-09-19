@@ -1,0 +1,130 @@
+Economic Indicators:
+
+Real GDP(Q, A):
+
+	"Endpoint": "/lookup/quarterly_real_gdp/",
+        	"method": "GET"
+	"Endpoint": "/lookup/annual_real_gdp/",
+        	"method": "GET"
+Real GDP per Capita:
+	"Endpoint": "/lookup/real_gdp_per_capita/",
+        	"method": "GET"
+
+(3months/2years/5years/7years/10years/30years) Treasury Yield (Daily, Weekly, Monthly):
+
+	3months & Daily:
+		"Endpoint": "/lookup/daily_3month_treasury_yield/",
+        		"method": "GET"
+	3months & weekly:
+        		"Endpoint": "/lookup/weekly_3month_treasury_yield/",
+       		"method": "GET"
+	3months & monthly:
+		"Endpoint": "/lookup/monthly_3month_treasury_yield/",
+        		"method": "GET"
+	daily_2year:
+       		"Endpoint": "/lookup/daily_2year_treasury_yield/",
+        		"method": "GET"
+	weekly_2year:
+        		"Endpoint": "/lookup/weekly_2year_treasury_yield/",
+       	 	"method": "GET"
+	monthly_2year:
+        		"Endpoint": "/lookup/monthly_2year_treasury_yield/",
+        		"method": "GET"
+	daily_5year:
+        		"Endpoint": "/lookup/daily_5year_treasury_yield/",
+        		"method": "GET"
+	weekly_5year:
+        		"Endpoint": "/lookup/weekly_5year_treasury_yield/",
+       		"method": "GET"
+	monthly_5year
+        		"Endpoint": "/lookup/monthly_5year_treasury_yield/",
+       		"method": "GET"
+	daily_7year:
+        		"Endpoint": "/lookup/daily_7year_treasury_yield/",
+        		"method": "GET"
+	weekly_7year:
+        		"Endpoint": "/lookup/weekly_7year_treasury_yield/",
+       	 	"method": "GET"
+	monthly_7year:
+        		"Endpoint": "/lookup/monthly_7year_treasury_yield/",
+       		"method": "GET"
+	daily_10year:
+		"Endpoint": "/lookup/daily_10year_treasury_yield/",
+        		"method": "GET"
+	weekly_10year:
+        		"Endpoint": "/lookup/weekly_10year_treasury_yield/",
+        		"method": "GET"
+	monthly_10year:
+        		"Endpoint": "/lookup/monthly_10year_treasury_yield/",
+        		"method": "GET"
+	daily_30year:
+        		"Endpoint": "/lookup/daily_30year_treasury_yield/",
+        		"method": "GET"
+	weekly_30year:
+        		"Endpoint": "/lookup/weekly_30year_treasury_yield/",
+        		"method": "GET"
+	monthly_30year:
+        		"Endpoint": "/lookup/monthly_30year_treasury_yield/",
+        		"method": "GET"
+
+Federal Funds Rate (Daily, Weekly, Monthly):
+	daily_federal_funds_rate:
+		"Endpoint": "/lookup/daily_federal_funds_rate/",
+        		"method": "GET"
+	weekly_federal_funds_rate:
+        		"Endpoint": "/lookup/weekly_federal_funds_rate/",
+        		"method": "GET"
+	monthly_federal_funds_rate:
+        		"Endpoint": "/lookup/monthly_federal_funds_rate/",
+        		"method": "GET"
+
+CPI (Monthly, Semiannual):
+
+	monthly_cpi:
+		"Endpoint": "/lookup/monthly_cpi/",
+       		"method": "GET"
+	semiannual_cpi:
+        		"Endpoint": "/lookup/semiannual_cpi/",
+        		"method": "GET"
+
+Inflation:
+	"Endpoint": "/lookup/inflation/",
+        	"method": "GET"
+
+Inflation Expectation:
+	"Endpoint": "/lookup/inflation_expectation/",
+        	"method": "GET"
+
+Consumer Sentiment:
+	"Endpoint": "/lookup/consumer_sentiment/",
+        	"method": "GET"
+
+Retail Sales:
+	"Endpoint": "/lookup/retail_sales/",
+        	"method": "GET"
+
+Durables:
+	"Endpoint": "/lookup/durables/",
+        	"method": "GET"
+
+Unemployment:
+	"Endpoint": "/lookup/unemployment/",
+       	"method": "GET"
+
+Nonfarm Payroll:
+	"Endpoint": "/lookup/nonfarm_payroll/",
+        	"method": "GET"
+-------------------------------economic indicator ending-----------------------------------------
+
+Fundamental Data:
+
+Earnings:
+	"Endpoint": "/lookup/earning/:symbol/",
+        	"method": "GET"
+
+Company Overview:
+	"Endpoint": "/lookup/overview/:symbol/",
+        	"method": "GET"
+
+
+

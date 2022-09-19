@@ -1,0 +1,25 @@
+Economic Indicators:
+	✔ Real GDP (Quarterly, Annual)
+	✔ Real GDP per Capita
+	✔ (3months/2years/5years/7years/10years/30years) Treasury Yield (Daily, Weekly, Monthly)
+	✔ Federal Funds Rate (Daily, Weekly, Monthly)
+	✔ CPI (Monthly, Semiannual)
+	✔ Inflation
+	✔ Inflation Expectation
+	✔ Consumer Sentiment
+	✔ Retail Sales
+	✔ Durables
+	✔ Unemployment
+	✔ Nonfarm Payroll
+
+Fundamental Data
+	Income Statement
+	Balance Sheet
+	Cash Flow
+	✔ Earnings
+	✔ Company Overview
+	Earnings Calendar
+	IPO Calendar
+
+Streaming Data
+	

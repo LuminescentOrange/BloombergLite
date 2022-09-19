@@ -1,0 +1,147 @@
+HTTP 200 OK
+Allow: OPTIONS, GET
+Content-Type: application/json
+Vary: Accept
+
+[
+    {
+        "Endpoint": "/lookup/quarterly_real_gdp/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/annual_real_gdp/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/real_gdp_per_capita/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_3month_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_3month_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_3month_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_2year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_2year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_2year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_5year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_5year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_5year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_7year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_7year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_7year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_10year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_10year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_10year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_30year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_30year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_30year_treasury_yield/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/daily_federal_funds_rate/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/weekly_federal_funds_rate/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_federal_funds_rate/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/monthly_cpi/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/semiannual_cpi/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/inflation/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/inflation_expectation/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/consumer_sentiment/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/retail_sales/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/durables/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/unemployment/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/nonfarm_payroll/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/earning/:symbol/",
+        "method": "GET"
+    },
+    {
+        "Endpoint": "/lookup/overview/:symbol/",
+        "method": "GET"
+    }
+]
